@@ -43,8 +43,8 @@ Before you begin, ensure you have the following installed:
 2. **Okta Configuration**:
    - Update the Okta OAuth2 settings in the `application.properties` file:
      ```properties
-     okta.oauth2.client-id=0oanz25l8rL0Llod95d7
-     okta.oauth2.issuer=https://dev-40360315.okta.com/oauth2/default
+     okta.oauth2.client-id=Your client-id from okta
+     okta.oauth2.issuer=https://<username from okta>/oauth2/default
      ```
    - Replace the `client-id` and `issuer` with your Okta application credentials.
 
