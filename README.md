@@ -33,8 +33,8 @@ Before you begin, ensure you have the following installed:
      ```properties
      spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
      spring.datasource.url=jdbc:mysql://localhost:3306/reactlibrarydatabase?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC
-     spring.datasource.username=root
-     spring.datasource.password=root
+     spring.datasource.username=<username>
+     spring.datasource.password=<password>
 
      spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
      spring.data.rest.base-path=/api
